@@ -175,12 +175,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5694690685750523526, guid: 63a4ad6d3392c654987c68c441378372, type: 3}
-      propertyPath: m_Constraints
-      value: 4
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 2586526020905124804, guid: 63a4ad6d3392c654987c68c441378372, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -527,11 +522,11 @@ PrefabInstance:
       objectReference: {fileID: 1828680879}
     - target: {fileID: 7029640760794516028, guid: 90238dd5e07099e458b2aebb22720589, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -32.9
+      value: -26.6
       objectReference: {fileID: 0}
     - target: {fileID: 7029640760794516028, guid: 90238dd5e07099e458b2aebb22720589, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -8.8
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 7029640760794516028, guid: 90238dd5e07099e458b2aebb22720589, type: 3}
       propertyPath: m_LocalPosition.z
@@ -568,6 +563,10 @@ PrefabInstance:
     - target: {fileID: 7455994188354423715, guid: 90238dd5e07099e458b2aebb22720589, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 7455994188354423715, guid: 90238dd5e07099e458b2aebb22720589, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -46155,6 +46154,10 @@ PrefabInstance:
     - target: {fileID: 8265633313515173091, guid: 8f6d4d1b5b92f524b82e3e5a11de53a3, type: 3}
       propertyPath: m_Name
       value: Deadzone
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265633313515173091, guid: 8f6d4d1b5b92f524b82e3e5a11de53a3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5934203594944653467, guid: 8f6d4d1b5b92f524b82e3e5a11de53a3, type: 3}

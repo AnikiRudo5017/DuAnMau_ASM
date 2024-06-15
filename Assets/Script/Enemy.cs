@@ -19,6 +19,9 @@ public class Enemy : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        SceneManager.LoadScene(level);
+        if(collision.gameObject.CompareTag("Player"))
+        {
+            SceneManager.LoadScene(level);
+        }
     }
 }

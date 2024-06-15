@@ -24,6 +24,7 @@ public class Player : MonoBehaviour
     public AudioClip coinPick;
     private AudioSource audioSource;
     // Start is called before the first frame update
+    
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
@@ -122,4 +123,5 @@ public class Player : MonoBehaviour
     //    }
     //}
 
+    
 }
